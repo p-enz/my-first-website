@@ -1,75 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Philipp Enz</title>
+  </head>
+  <body>
     <h1>Philipp Enz</h1>
-    <!-- TO DO  width und height rausnehmen-->
-    <img src="/Users/penz/projects/my-first-website/images/passbild.JPG" alt="passbild of Philipp Enz" width="300px" height="300px">
+    <header id="toTop">
+      <nav>
+        <ul>
+          <li>
+            <a href="#aboutMe">About Me</a>
+          </li>
+          <li>
+            <a href="#cv">Curriculum Vitae</a>
+          </li>
+          <li>
+            <a href="#interests">Interests</a>
+          </li>
+          <li>
+            <a href="#networks">Social Media</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- TODO Remove Width, Heigth -->
+    <img
+      src="images/passbild.JPG"
+      alt="Passport photo Philipp Enz"
+      width="200px"
+      height="180px"
+    />
     <!-- TODO Anchor links setzen-->
 
-    <header>
-        <nav>
-            <ul>
-                <li> 
-                    <a href="#">Contact</a>
-                </li>
-                <li> 
-                    <a href="#">Biography</a>
-                </li>
-                <!-- TO DO ADD Lebenslauf 
-                <li>
-                    <a href="#">Curriculum Vitae</a>
-                 </li>
-                -->
-            </ul>
-        </nav>
-    </header>
     <main>
-            <!--TO DO Translate in Eng-->
-        <section id="biography">
-            <h2>Biography</h2>
-            <h3>Fast Forward</h3>
-            <p>Geboren in Kaiserslautern und dort auch den kompletten Schulweg durchlaufen. 
-                Ausbildung IT Systemelektroniker abgeschlossen.
-                Studium Angewandte Informatik in Zweibrücken. Leider ohne Abschluss.
-                Zweimal in CallCenter gearbeitet.
-                Weiterbildung zu WebDev begonnen. ongoing. Wuhuu
-            </p>
-            <h3>Meine Interessen</h3>
-            <p>
-                <ul>
-                    <li>Lesen nonFiction</li>
-                    <li>Brettspiele</li>
-                    <li>Videospiele</li>
-                    <li>Coding</li>
-                    <li>Fotografie</li>
-                </ul>
-            </p>
+      <!--TO DO Translate in Eng-->
+      <section id="aboutMe">
+        <h2>About Me</h2>
+        <p>
+          Welcome to my Website. My name is Philipp and I will soon turn 26
+          years. Grab a good cup of tea or coffee, whatever suits you the most,
+          while I will tell you some details about my life. I used to have no
+          real direction or destination to aim for. For the first time I have
+          found my path to walk on. Maybe I just finished my personal prolog and
+          just started my first act in the sometimes cruel game of life. So now
+          after the tutorial boss I will happily looking forward to new enemies,
+          new challenges and even new and way harder bosses. To summarize I will
+          share my favourite quote.
+        </p>
+        <q>
+          “I can't see a way through," said the boy. "Can you see your next
+          step?" "Yes." "Just take that," said the horse.” ― Charlie Mackesy,
+          The Boy, the Mole, the Fox and the Horse
+        </q>
+      </section>
 
-        <section id="aboutMe">
-            <h2>Contact</h2>
-            <p>Mob Number 0176 ******94<p>
-            <p>E-Mail:    <a href="mailto:philipp-enz@phenz">Mail me</a> </p>
-        
-        </section>
+      <section id="cv">
+        <h2>Curriculum Vitae</h2>
+        <ul>
+          <li>2022_04 - WebDev Bootcamp neueFische GmbH</li>
+          <li>2021_11 - 2022_03 Costumer Care 1und1 Zweibrücken</li>
+          <li>2021_01 - 2021_10 Callcenteragent Victors GmbH</li>
+          <li>
+            2020_08 - 2020_11 School Vocational Training Business Informatics
+            KBBZ Halberg
+          </li>
+          <li>
+            2017_09 - 2020_02 Applied Computer Science at University of Applied
+            Sciences Zweibrücken
+          </li>
+          <li>
+            2014_08 - 2017_07 Vocational Training IT-Systemelektroniker
+            klip-asca GmbH
+          </li>
+          <li>
+            bis 2014_07 Technical Diploma Hohenstaufen Gymnasium Kaiserslautern
+          </li>
+        </ul>
+      </section>
 
-        <!--Profiles on sozialnetworks-->
-        <article id="networks">
-            <h2>Social networks</h2>
-            <a href="https://github.com/p-enz/" target="_blank">github</a>   
-            <a href="http://" target="_blank">LinkedIn</a>
-            <a href="http://" target="_blank">Instagram</a>
-        </article>
+      <section id="interests">
+        <h2>My interests</h2>
+        <ul>
+          <li>Reading of non-ficition books</li>
+          <li>Boardgames</li>
+          <li>Videogames</li>
+          <li>Coding</li>
+          <li>Amateuer Photography</li>
+          <li>Spending time on seeking inner tranquillity</li>
+        </ul>
+      </section>
 
+      <!-- TODO add klickable pictures for links-->
+      <section id="networks">
+        <h2>Social networks</h2>
+        <a
+          href="https://github.com/p-enz/"
+          target="_blank"
+          aria-label="Open Github Profile of Philipp Enz"
+          >github</a
+        >
+        <a
+          href="https://www.linkedin.com/in/philipp-enz-8272a4195/"
+          target="_blank"
+          aria-label="Open LinkedIn Profile of Philipp Enz"
+          >LinkedIn</a
+        >
+        <a
+          href="https://www.instagram.com/ph_enz/"
+          target="_blank"
+          aria-label="Open Instagram Profile of Philipp Enz"
+          >Instagram</a
+        >
+      </section>
+
+      <section id="contact">
+        <h2>Kontakt</h2>
+        <address>
+          Written By:
+          <a
+            href="mailto:mail@phenz"
+            aria-label="Sende eine Mail an Philipp Enz"
+            >Philipp Enz</a
+          >
+          mystreet zipcode town Telefonnummer: 01** *******4
+        </address>
+      </section>
     </main>
+
     <footer>
-        <!-- TO DO add anchor to top of page-->
-        <a href="http://">To the Top</a>
+      <button>
+        <a href="#toTop" aria-label="Springe an den Seiten Anfang">nach Oben</a>
+      </button>
     </footer>
-</body>
+  </body>
 </html>
