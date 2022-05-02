@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
 
+  /*checkout template.txt for more inspiration*/
   --main-color: #30475e;
   --main-text-color: #f5f5f5;
   --main-hover-color: #f05454;
@@ -35,7 +36,6 @@ header a:hover {
   background-color: var(--main-hover-color);
   color: var(--main-reserve-color);
   border-style: outset;
-  border-color: var(--main-color);
   border-radius: 0.25em;
 }
 
