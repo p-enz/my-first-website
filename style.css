@@ -2,13 +2,15 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-
+}
+:root {
   /*checkout template.txt for more inspiration*/
   --main-color: #30475e;
   --main-text-color: #f5f5f5;
   --main-hover-color: #f05454;
   --main-reserve-color: #121212;
 }
+
 body {
   font-family: sans-serif;
   max-width: 62em;
@@ -35,7 +37,6 @@ header a {
 header a:hover {
   background-color: var(--main-hover-color);
   color: var(--main-reserve-color);
-  border-style: outset;
   border-radius: 0.25em;
 }
 
@@ -59,11 +60,11 @@ h2 {
 p {
   padding: 1.5em 0;
 }
-q {
+blockquote {
   background-color: var(--main-reserve-color);
   color: var(--main-text-color);
   text-align: center;
-  margin: 2em;
+  max-width: 50%;
 }
 
 /*--------------- Logos and Pictures ---------------*/
