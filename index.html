@@ -9,11 +9,11 @@
     <title>About Philipp Enz</title>
   </head>
   <body>
-    <header id="toTop">
+    <header id="toTop" class="flex jcSpaceBetween acCenter">
       <h1>Philipp Enz</h1>
 
       <nav>
-        <ul class="navLinks">
+        <ul class="flex jcSpaceBetween acCenter noListType">
           <li class="navItem">
             <a href="#aboutMe">About Me</a>
           </li>
@@ -33,16 +33,13 @@
       </nav>
     </header>
 
-    <main>
-      <!-- TODO Remove Width, Heigth -->
-      <img
-        src="images/passbild.JPG"
-        alt="Passport photo Philipp Enz"
-        width="200px"
-        height="180px"
-      />
-      <!--TO DO Translate in Eng-->
+    <main class="flex acCenter p1em">
       <section id="aboutMe">
+        <img
+          class="passportImg"
+          src="images/passbild.JPG"
+          alt="Passport photo Philipp Enz"
+        />
         <h2>About Me</h2>
         <p>
           Welcome to my Website. My name is Philipp and I will soon turn 26
@@ -55,16 +52,16 @@
           new challenges and even new and way harder bosses. To summarize I will
           share my favourite quote.
         </p>
-        <q aria-label="Quote by Charlie Mackesy">
+        <blockquote aria-label="Quote by Charlie Mackesy">
           “I can't see a way through," said the boy. "Can you see your next
-          step?" "Yes." "Just take that," said the horse.” ― Charlie Mackesy,
-          The Boy, the Mole, the Fox and the Horse
-        </q>
+          step?" "Yes." "Just take that," said the horse.” ― Charlie Mackesy,The
+          Boy, the Mole, the Fox and the Horse
+        </blockquote>
       </section>
 
       <section id="cv">
         <h2>Curriculum Vitae</h2>
-        <ul>
+        <ul class="noListType">
           <li>2022_04 - WebDev Bootcamp neueFische GmbH</li>
           <li>2021_11 - 2022_03 Costumer Care 1und1 Zweibrücken</li>
           <li>2021_01 - 2021_10 Callcenteragent Victors GmbH</li>
@@ -88,7 +85,7 @@
 
       <section id="interests">
         <h2>My interests</h2>
-        <ul>
+        <ul class="noListType">
           <li>Reading of non-ficition books</li>
           <li>Boardgames</li>
           <li>Videogames</li>
@@ -98,29 +95,39 @@
         </ul>
       </section>
 
-      <!-- TODO add klickable pictures for links-->
       <section id="networks">
         <h2>Social networks</h2>
         <a
           href="https://github.com/p-enz/"
           target="_blank"
           aria-label="Open Github Profile of Philipp Enz"
-          >github</a
-        >
+          ><img
+            src="images/GitHub-Mark-64px.png"
+            alt="Picture of Github Logo"
+            class="socialLogos"
+        /></a>
         <a
           href="https://www.linkedin.com/in/philipp-enz-8272a4195/"
           target="_blank"
           aria-label="Open LinkedIn Profile of Philipp Enz"
-          >LinkedIn</a
-        >
+          ><img
+            src="images/linkedin-logo-design-30.png"
+            alt="Picture of LinkedIn Logo"
+            class="socialLogos"
+        /></a>
         <a
           href="https://www.instagram.com/ph_enz/"
           target="_blank"
           aria-label="Open Instagram Profile of Philipp Enz"
-          >Instagram</a
-        >
+          ><img
+            src="images/logo-ig-instagram-new-logo-vector-download-13.png"
+            alt="Picture of Instagram Logo"
+            class="socialLogos"
+        /></a>
       </section>
+    </main>
 
+    <footer class="p1em">
       <section id="contact">
         <h2>Contact</h2>
         <address>
@@ -133,9 +140,6 @@
           mystreet zipcode town Telefonnummer: 01** *******4
         </address>
       </section>
-    </main>
-
-    <footer>
       <button>
         <a href="#toTop" aria-label="Springe an den Seiten Anfang">nach Oben</a>
       </button>
